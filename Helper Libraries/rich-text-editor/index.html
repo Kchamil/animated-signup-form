@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rich Text Editor</title>
+</head>
+<body>
+    <div class="richTextEditor">
+        <div id="richTextEditor__input">
+            <button type="button" data-cmd="justifyLeft">
+                <i class="fas fa-align-left" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="justifyCenter">
+                <i class="fas fa-align-center" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="justifyRight">
+                <i class="fas fa-align-right" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="justifyFull">
+                <i class="fas fa-align-justify" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="bold">
+                <i class="fas fa-bold" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="italic">
+                <i class="fas fa-italic" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="underline">
+                <i class="fas fa-underline" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="insertUnorderedList">
+                <i class="fas fa-list-ul" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="insertOrderedList">
+                <i class="fas fa-list-ol" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="insertImage">
+                <i class="far fa-file-image" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="createLink">
+                <i class="fas fa-link" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="undo">
+                <i class="fas fa-undo-alt" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="redo">
+                <i class="fas fa-redo-alt" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h1">
+                H1
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h2">
+                H2
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h3">
+                H3
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h4">
+                H4
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h5">
+                H5
+            </button>
+            <button type="button" data-cmd="formatBlock" data-element="h6">
+                H6
+            </button>
+        </div>
+        <div contenteditable id="richTextEditor__output"></div>
+    </div>
+</body>
+</html>

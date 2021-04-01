@@ -1,0 +1,14 @@
+#richTextEditor__output{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    min-height: 100px;
+}
+
+#richTextEditor__input{
+    margin-bottom: 12px;
+}
+
+button{
+    font-weight: bold;
+}
